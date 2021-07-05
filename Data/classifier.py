@@ -211,6 +211,6 @@ class classifier:
 if __name__ == '__main__':
     sample = data(path='genres_original')
     (train_data, train_label), (test_data, test_label) = sample.load_image_data()
-
+    # NN object for classification
     NN = classifier(train_data, train_label, test_data, test_label)
     NN.train()
