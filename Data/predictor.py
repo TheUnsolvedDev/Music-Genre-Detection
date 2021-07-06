@@ -4,6 +4,7 @@ import numpy as np
 from keras.models import load_model
 import tensorflow as tf
 
+#for gpu utilisation
 physical_devices = tf.config.experimental.list_physical_devices('GPU')
 tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
