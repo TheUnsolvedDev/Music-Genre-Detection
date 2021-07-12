@@ -7,7 +7,7 @@ Before trying, follow these steps:
   
   Visit https://www.kaggle.com/carlthome/gtzan-genre-collection/download and download the GTZAN Genre Collection Dataset.
   
-  -> Fire up your terminal/cmd
+  -> Fire up your terminal/cmd.
    
    # Linux :
    
